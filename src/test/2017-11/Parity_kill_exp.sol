@@ -14,6 +14,10 @@ interface parity {
 
 contract ContractTest is Test {
     parity WalletLibrary = parity(payable(0x863DF6BFa4469f3ead0bE8f9F2AAE51c91A907b4));
+    // Real Parity addresses
+    // 0xbec591de75b8699a3ba52f073428822d0bfc0d7e
+    // 0x50126e8fcb9be29f83c6bbd913cc85b40eaf86fc
+    // 0x91efffb9c6cd3a66474688d0a48aa6ecfe515aa5
 
     address[] public owner;
     CheatCodes cheats = CheatCodes(0x7109709ECfa91a80626fF3989D68f67F5b1DD12D);
