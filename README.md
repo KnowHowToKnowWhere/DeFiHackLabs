@@ -2,7 +2,7 @@
 
 **Reproduce DeFi hack incidents using Foundry.**
 
-522 incidents included.
+531 incidents included.
 
 Let's make Web3 secure! Join [Discord](https://discord.gg/Fjyngakf3h)
 
@@ -26,12 +26,12 @@ All articles are also published on [Substack](https://defihacklabs.substack.com/
 ### OnChain transaction debugging
 
 - Lesson 1: Tools ( [English](https://github.com/SunWeb3Sec/DeFiHackLabs/tree/main/academy/onchain_debug/01_tools/en) | [中文](https://github.com/SunWeb3Sec/DeFiHackLabs/tree/main/academy/onchain_debug/01_tools) | [Vietnamese](https://github.com/SunWeb3Sec/DeFiHackLabs/tree/main/academy/onchain_debug/01_tools/vi) | [Korean](https://github.com/SunWeb3Sec/DeFiHackLabs/tree/main/academy/onchain_debug/01_tools/ko) | [Spanish](https://github.com/SunWeb3Sec/DeFiHackLabs/tree/main/academy/onchain_debug/01_tools/es) )
-- Lesson 2: Warm up ( [English](https://github.com/SunWeb3Sec/DeFiHackLabs/tree/main/academy/onchain_debug/02_warmup/en/) | [中文](https://github.com/SunWeb3Sec/DeFiHackLabs/tree/main/academy/onchain_debug/02_warmup/) | [Korean](https://github.com/SunWeb3Sec/DeFiHackLabs/tree/main/academy/onchain_debug/02_warmup/ko) )
-- Lesson 3: Write Your Own PoC (Price Oracle Manipulation) ( [English](https://github.com/SunWeb3Sec/DeFiHackLabs/tree/main/academy/onchain_debug/03_write_your_own_poc/en/) | [中文](https://github.com/SunWeb3Sec/DeFiHackLabs/tree/main/academy/onchain_debug/03_write_your_own_poc/) | [Korean](https://github.com/SunWeb3Sec/DeFiHackLabs/tree/main/academy/onchain_debug/03_write_your_own_poc/ko) )
-- Lesson 4: Write Your Own PoC (MEV Bot) ( [English](https://github.com/SunWeb3Sec/DeFiHackLabs/tree/main/academy/onchain_debug/04_write_your_own_poc/en/) | [中文](https://github.com/SunWeb3Sec/DeFiHackLabs/tree/main/academy/onchain_debug/04_write_your_own_poc/) | [Korean](https://github.com/SunWeb3Sec/DeFiHackLabs/tree/main/academy/onchain_debug/04_write_your_own_poc/kr/) )
-- Lesson 5: Rugpull Analysis ( [English](https://github.com/SunWeb3Sec/DeFiHackLabs/tree/main/academy/onchain_debug/05_Rugpull/en/) | [中文](https://github.com/SunWeb3Sec/DeFiHackLabs/tree/main/academy/onchain_debug/05_Rugpull/) )
-- Lesson 6: Write Your Own PoC (Reentrancy) ( [English](https://github.com/SunWeb3Sec/DeFiHackLabs/tree/main/academy/onchain_debug/06_write_your_own_poc/en/) | [中文](https://github.com/SunWeb3Sec/DeFiHackLabs/tree/main/academy/onchain_debug/06_write_your_own_poc/) )
-- Lesson 7: Hack Analysis: Nomad Bridge, August 2022 ( [English](https://github.com/SunWeb3Sec/DeFiHackLabs/tree/main/academy/onchain_debug/07_Analysis_nomad_bridge/en/) | [中文](https://github.com/SunWeb3Sec/DeFiHackLabs/tree/main/academy/onchain_debug/07_Analysis_nomad_bridge/) )
+- Lesson 2: Warm up ( [English](https://github.com/SunWeb3Sec/DeFiHackLabs/tree/main/academy/onchain_debug/02_warmup/en/) | [中文](https://github.com/SunWeb3Sec/DeFiHackLabs/tree/main/academy/onchain_debug/02_warmup/) | [Korean](https://github.com/SunWeb3Sec/DeFiHackLabs/tree/main/academy/onchain_debug/02_warmup/ko) | [Spanish](https://github.com/SunWeb3Sec/DeFiHackLabs/tree/main/academy/onchain_debug/02_warmup/es) )
+- Lesson 3: Write Your Own PoC (Price Oracle Manipulation) ( [English](https://github.com/SunWeb3Sec/DeFiHackLabs/tree/main/academy/onchain_debug/03_write_your_own_poc/en/) | [中文](https://github.com/SunWeb3Sec/DeFiHackLabs/tree/main/academy/onchain_debug/03_write_your_own_poc/) | [Korean](https://github.com/SunWeb3Sec/DeFiHackLabs/tree/main/academy/onchain_debug/03_write_your_own_poc/ko) | [Spanish](https://github.com/SunWeb3Sec/DeFiHackLabs/tree/main/academy/onchain_debug/03_write_your_own_poc/es) )
+- Lesson 4: Write Your Own PoC (MEV Bot) ( [English](https://github.com/SunWeb3Sec/DeFiHackLabs/tree/main/academy/onchain_debug/04_write_your_own_poc/en/) | [中文](https://github.com/SunWeb3Sec/DeFiHackLabs/tree/main/academy/onchain_debug/04_write_your_own_poc/) | [Korean](https://github.com/SunWeb3Sec/DeFiHackLabs/tree/main/academy/onchain_debug/04_write_your_own_poc/kr/) | [Spanish](https://github.com/SunWeb3Sec/DeFiHackLabs/tree/main/academy/onchain_debug/04_write_your_own_poc/es) )
+- Lesson 5: Rugpull Analysis ( [English](https://github.com/SunWeb3Sec/DeFiHackLabs/tree/main/academy/onchain_debug/05_Rugpull/en/) | [中文](https://github.com/SunWeb3Sec/DeFiHackLabs/tree/main/academy/onchain_debug/05_Rugpull/) | [Spanish](https://github.com/SunWeb3Sec/DeFiHackLabs/tree/main/academy/onchain_debug/05_Rugpull/es) )
+- Lesson 6: Write Your Own PoC (Reentrancy) ( [English](https://github.com/SunWeb3Sec/DeFiHackLabs/tree/main/academy/onchain_debug/06_write_your_own_poc/en/) | [中文](https://github.com/SunWeb3Sec/DeFiHackLabs/tree/main/academy/onchain_debug/06_write_your_own_poc/) | [Spanish](https://github.com/SunWeb3Sec/DeFiHackLabs/tree/main/academy/onchain_debug/06_write_your_own_poc/es) )
+- Lesson 7: Hack Analysis: Nomad Bridge, August 2022 ( [English](https://github.com/SunWeb3Sec/DeFiHackLabs/tree/main/academy/onchain_debug/07_Analysis_nomad_bridge/en/) | [中文](https://github.com/SunWeb3Sec/DeFiHackLabs/tree/main/academy/onchain_debug/07_Analysis_nomad_bridge/) | [Spanish](https://github.com/SunWeb3Sec/DeFiHackLabs/tree/main/academy/onchain_debug/07_Analysis_nomad_bridge/es) )
 
 ## Who Support Us? DeFiHackLabs Received Grant From
 
@@ -49,9 +49,28 @@ If you appreciate our work, please consider donating. Even a small amount helps 
 
 ## List of Past DeFi Incidents
 
+[20241005 AIZPTToken](#20241005-AIZPTToken---wrong-price-calculation)
+
+[20241002 LavaLending](#20241002-LavaLending---price-manipulation)
+
+[20240926 OnyxDAO](#20240926-OnyxDAO---fake-market)
+
+[20240926 Bedrock_DeFi](#20240926-Bedrock_DeFi---swap-eth/btc-1/1-in-mint-function)
+
+[20240924 MARA](#20240924-MARA---price-manipulation)
+
+[20240923 Bankroll_Network](#20240923-Bankroll_Network---incorrect-input-validation)
+
+[20240913 OTSeaStaking](#20240913-OTSeaStaking---Logic-Flaw)
+
+
+[20240910 Caterpillar_Coin_CUT](#20240910-Caterpillar_Coin_CUT---price-manipulation)
+
 [20240903 Penpiexyz_io](#20240903-Penpiexyz_io---reentrancy-and-reward-manipulation)
 
 [20240816 Zenterest](#20240816-Zenterest---price-out-of-date)
+
+[20240828 AAVE](#20240828-aave---arbitrary-call-error)
 
 [20240814 YodlRouter](#20240814-noname---arbitrary-call)
 
@@ -195,9 +214,9 @@ If you appreciate our work, please consider donating. Even a small amount helps 
 
 [20240401 ATM](#20240401-atm---business-logic-flaw)
 
-[20240401 OpenLeverage](#20240401-openleverage---reentrancy)
+[20240401 OpenLeverage](#20240401-openleverage---business-logic-flaw)
 
-[20240329 ETHFIN](#20240329-ethfin---price-manipulation)
+[20240329 ETHFIN](#20240329-ethfin---lack-of-access-control)
 
 [20240329 PrismaFi](#20240329-prismaFi---insufficient-validation)
 
@@ -257,7 +276,7 @@ If you appreciate our work, please consider donating. Even a small amount helps 
 
 [20240215 DualPools](#20240215-DualPools---precision-truncation)
 
-[20240215 Babyloogn](#20240215-Babyloogn---reentrancy)
+[20240215 Babyloogn](#20240215-Babyloogn---lack-of-validation)
 
 [20240215 Miner](#20240215-Miner---lack-of-validation-dst-address)
 
@@ -293,11 +312,11 @@ If you appreciate our work, please consider donating. Even a small amount helps 
 
 [20240117 SocketGateway](#20240112-socketgateway---lack-of-calldata-validation)
 
-[20240115 Shell_MEV_0xa898](#20240115-Shell_MEV_0xa898---loss-of-precision)
+[20240115 Shell_MEV_0xa898](#20240115-Shell_MEV_0xa898---lack-of-access-control)
 
 [20240112 WiseLending](#20240112-wiselending---bad-healthfactor-check)
 
-[20240110 Freedom](#20240110-Freedom---loss-of-precision)
+[20240110 Freedom](#20240110-Freedom---lack-of-access-control)
 
 [20240110 LQDX Alert](#20240110-lqdx---unauthorized-transferfrom)
 
@@ -555,13 +574,13 @@ If you appreciate our work, please consider donating. Even a small amount helps 
 
 [20230630 Biswap](past/2023/README.md#20230630-biswap---v3migrator-exploit)
 
-[20230630 MyAi](#20230630-MyAi---business-loigc)
+[20230630 MyAi](past/2023/README.md#20230630-MyAi---business-loigc)
 
 [20230628 Themis](past/2023/README.md#20230628-themis---manipulation-of-prices-using-flashloan)
 
 [20230627 UnverifiedContr_9ad32](past/2023/README.md#20230627-unverifiedcontr_9ad32---business-loigc-flaw)
 
-[20230627 STRAC](#20230627-STRAC---business-loigc)
+[20230627 STRAC](past/2023/README.md#20230627-STRAC---business-loigc)
 
 [20230623 SHIDO](past/2023/README.md#20230623-shido---business-loigc)
 
@@ -761,7 +780,7 @@ If you appreciate our work, please consider donating. Even a small amount helps 
 
 [20221211 Lodestar](past/2022/README.md#20221211---lodestar---flashloan-price-manipulation)
 
-[20221211 MEVbot_0x28d9](past/2022/README.md#20221211---MEVbot_0x28d9---precision-loss)
+[20221211 MEVbot_0x28d9](past/2022/README.md#20221211---MEVbot_0x28d9---insufficient-validation)
 
 [20221210 MUMUG](past/2022/README.md#20221210---mumug---flashloan-price-manipulation)
 
@@ -867,9 +886,9 @@ If you appreciate our work, please consider donating. Even a small amount helps 
 
 [20220913 MevBot Private TX](past/2022/README.md#20220913-mevbot-private-tx)
 
-[20220910 DPC](past/2022/README.md#20220910-dpc---Incorrect-Reward-calculation)
+[20220909 DPC](past/2022/README.md#20220909-dpc---Incorrect-Reward-calculation)
 
-[20220909 YYDS](past/2022/README.md#20220909-YYDS---pair-manipulate)
+[20220908 YYDS](past/2022/README.md#20220908-YYDS---pair-manipulate)
 
 [20220908 NewFreeDAO](past/2022/README.md#20220908-newfreedao---flashloans-attack)
 
@@ -897,7 +916,7 @@ If you appreciate our work, please consider donating. Even a small amount helps 
 
 [20220807 EGD Finance](past/2022/README.md#20220807-egd-finance---flashloans--price-manipulation)
 
-[20220804 EtnProcudt](past/2022/README.md#20220804-etnprocudt---business-logic-flaw)
+[20220804 EtnProduct](past/2022/README.md#20220804-etnproduct---business-logic-flaw)
 
 [20220803 Qixi](past/2022/README.md#20220803-qixi---underflow)
 
@@ -977,7 +996,7 @@ If you appreciate our work, please consider donating. Even a small amount helps 
 
 [20220320 Umbrella Network](past/2022/README.md#20220320-umbrella-network---underflow)
 
-[20220315 Agave Finance](past/2022/README.md#20220313-agave-finance---erc667-reentrancy)
+[20220315 Agave Finance](past/2022/README.md#20220315-agave-finance---erc667-reentrancy)
 
 [20220315 Hundred Finance](past/2022/README.md#20220313-hundred-finance---erc667-reentrancy)
 
@@ -1129,6 +1148,154 @@ If you appreciate our work, please consider donating. Even a small amount helps 
 
 ### List of DeFi Hacks & POCs
 
+
+### 20241005 AIZPTToken - Wrong Price Calculation
+
+### Total Lost : 34.88 BNB (~$20K USD)
+
+```sh
+forge test --contracts ./src/test/2024-10/AIZPTToken_exp.sol -vvv
+```
+
+#### Contract
+
+[AIZPTToken_exp.sol](src/test/2024-10/AIZPTToken_exp.sol)
+
+### Link reference
+
+https://x.com/0xNickLFranklin/status/1842576732047700077
+
+---
+
+### 20241002 LavaLending - Price Manipulation
+
+### Lost: 1 USDC, 125795.6 cUSDC, 0,0067 WBTC, 2.25 WETH (~$130K USD)
+
+```sh
+forge test --contracts ./src/test/2024-10/LavaLending_exp.sol -vvv
+```
+
+#### Contract
+
+[LavaLending_exp.sol](src/test/2024-10/LavaLending_exp.sol)
+
+### Link reference
+
+https://x.com/0xNickLFranklin/status/1841823216425435308
+
+
+https://nickfranklin.site/2024/10/03/unknown-lending-project-hacked-due-to-price-oracle-manipulation/
+
+---
+
+### 20240926 OnyxDAO - Fake Market
+
+### Lost: 4.1M VUSD, 7.35M XCN, 5K DAI, 0.23 WBTC, 50K USDT (>$3.8M USD)
+
+```sh
+forge test --contracts ./src/test/2024-09/OnyxDAO_exp.sol -vvv
+```
+
+#### Contract
+
+[OnyxDAO_exp.sol](src/test/2024-09/OnyxDAO_exp.sol)
+
+### Link reference
+
+https://x.com/peckshield/status/1839302663680438342
+
+---
+
+### 20240926 Bedrock_DeFi - Swap ETH/BTC 1/1 in mint function
+
+### Lost: 27.83925883 BTC (~$1.7M USD)
+
+```sh
+forge test --contracts ./src/test/2024-09/Bedrock_DeFi_exp.sol -vvv
+```
+
+#### Contract
+
+[Bedrock_DeFi_exp.sol](src/test/2024-09/Bedrock_DeFi_exp.sol)
+
+### Link reference
+
+https://x.com/certikalert/status/1839403126694326374
+
+---
+
+### 20240924-MARA---price-manipulation
+
+### Lost: ~8.8 WBNB (~5.3K USD)
+
+```sh
+forge test --contracts ./src/test/2024-09/MARA_exp.sol -vvv
+
+```
+
+#### Contract
+
+[MARA_exp.sol](/src/test/2024-09/MARA_exp.sol)
+
+### Link reference
+
+https://bscscan.com/tx/0x0fe3716431f8c2e43217c3ca6d25eed87e14d0fbfa9c9ee8ce4cef2e5ec4583c
+
+### 20240923 Bankroll_Network - Incorrect input validation
+
+### Lost: ~404 WBNB (~234.8K USD)
+
+```sh
+forge test --contracts ./src/test/2024-09/Bankroll_exp.sol -vvv
+```
+
+#### Contract
+
+[Bankroll_exp.sol](/src/test/2024-09/Bankroll_exp.sol)
+
+### Link reference
+
+https://x.com/Phalcon_xyz/status/1838042368018137547
+
+---
+
+### 20240913 OTSeaStaking - Logic Flaw
+
+### Lost: 26k
+
+```sh
+forge test --contracts ./src/test/2024-09/OTSeaStaking_exp.sol -vvv
+```
+#### Contract
+
+[OTSeaStaking_exp.sol](src/test/2024-09/OTSeaStaking_exp.sol)
+
+### Link reference
+
+Nick Franklin: https://nickfranklin.site/2024/09/13/otsea-staking-hacked/
+
+
+---
+
+### 20240910 Caterpillar_Coin_CUT - Price Manipulation
+
+### Lost: ~1.4M USD
+
+```sh
+forge test --contracts ./src/test/2024-09/Caterpillar_Coin_CUT_exp.sol -vvv --evm-version shanghai
+```
+
+#### Contract
+
+[Caterpillar_Coin_CUT_exp.sol](/src/test/2024-09/Caterpillar_Coin_CUT_exp.sol)
+
+### Link reference
+
+https://www.certik.com/zh-CN/resources/blog/caterpillar-coin-cut-token-incident-analysis
+
+
+---
+
 ### 20240903 Penpiexyz_io - Reentrancy and Reward Manipulation
 
 ### Lost: 11,113.6 ETH (~$27,348,259 USD)
@@ -1143,22 +1310,40 @@ forge test --contracts ./src/test/2024-09/Penpiexyzio_exp.sol -vvv --evm-version
 ### Link reference
 
 https://x.com/peckshield/status/1831072098669953388
+
 https://x.com/AnciliaInc/status/1831080555292856476
+
 https://x.com/hackenclub/status/1831383106554573099
+
 post-morten: https://x.com/Penpiexyz_io/status/1831462760787452240
 
 ---
+
+### 20240828 AAVE - Arbitrary Call Error
+
+### Lost: 52000
+
+
+```sh
+forge test --contracts ./src/test/2024-08/AAVE_Repay_Adapter.sol -vvv
+```
+#### Contract
+[AAVE_Repay_Adapter.sol](src/test/2024-08/AAVE_Repay_Adapter.sol)
+
+### Link reference
+
+https://www.vibraniumaudits.com/post/aave-hacked-via-periphery-contract-56kstolenfromtipjar
 
 ### 20240816 Zenterest - Price Out Of Date
 
 ### Lost: ~21000 USD
 
 ```sh
-forge test --contracts ./src/test/2024-09/Zenterest_exp.sol -vvvv --evm-version shanghai
+forge test --contracts ./src/test/2024-08/Zenterest_exp.sol -vvvv --evm-version shanghai
 ```
 #### Contract
 
-[Zenterest_exp.sol](src/test/2024-09/Zenterest_exp.sol)
+[Zenterest_exp.sol](src/test/2024-08/Zenterest_exp.sol)
 
 ### Link reference
 
@@ -2427,7 +2612,7 @@ https://twitter.com/0xNickLFranklin/status/1775008489569718508
 
 ---
 
-### 20240401 OpenLeverage - Reentrancy
+### 20240401 OpenLeverage - business logic flaw
 
 ### Lost: ~234K
 
@@ -2445,7 +2630,7 @@ https://twitter.com/0xNickLFranklin/status/1774727539975672136
 
 ---
 
-### 20240329 ETHFIN - Price Manipulation
+### 20240329 ETHFIN - lack of access control
 
 ### Lost: ~$1.24K (2.13 BNB)
 
@@ -2454,7 +2639,9 @@ https://twitter.com/0xNickLFranklin/status/1774727539975672136
 forge test --contracts ./src/test/2024-03/ETHFIN_exp.sol -vvv --evm-version shanghai
 ```
 #### Contract
+
 [ETHFIN_exp.sol](src/test/2024-03/ETHFIN_exp.sol)
+
 ### Link reference
 
 https://app.blocksec.com/explorer/tx/bsc/0xfe031685d84f3bae1785f5b2bd0ed480b87815c3f23ce6ced73b8573b7e367c6
@@ -2994,7 +3181,7 @@ https://medium.com/@lunaray/dualpools-hack-analysis-5209233801fa
 
 ---
 
-### 20240215 Babyloogn - reentrancy
+### 20240215 Babyloogn - lack of validation
 
 ### Lost: ~2 $BNB
 
@@ -3039,7 +3226,9 @@ https://twitter.com/Phalcon_xyz/status/1757777340002681326
 forge test --contracts ./src/test/2024-02/MINER_bsc_exp.sol -vvv --evm-version shanghai
 ```
 #### Contract
+
 [MINER_bsc_exp.sol](src/test/2024-02/MINER_bsc_exp.sol)
+
 ### Link reference
 
 https://app.blocksec.com/explorer/tx/bsc/0x15ab671c9bf918fa4b6a9eed9ccb527f32aca40e926ede2aec2c84dfa9c30512?line=6
@@ -3196,7 +3385,7 @@ https://phalcon.blocksec.com/explorer/security-incidents
 
 ---
 
-### 20240129 PeapodsFinance_exp - Reentrancy
+### 20240129 PeapodsFinance - Reentrancy
 
 ### Lost: ~1K $DAI
 
@@ -3310,7 +3499,7 @@ https://x.com/0xmstore/status/1747756898172952725
 
 ---
 
-### 20240115 Shell_MEV_0xa898 - loss of precision
+### 20240115 Shell_MEV_0xa898 - lack of access control
 
 ### Lost: ~1K $BUSD
 
@@ -3366,7 +3555,7 @@ https://twitter.com/danielvf/status/1746303616778981402
 
 ---
 
-### 20240110 Freedom - Loss of Precision
+### 20240110 Freedom - lack of access control
 
 ### Lost: 74 $WBNB
 
@@ -3376,7 +3565,7 @@ forge test --contracts src/test/2024-01/Freedom_exp.sol -vvv
 
 #### Contract
 
-[Freedom_exp.sol](src/test/2024-01/Freedom_exp_exp.sol)
+[Freedom_exp.sol](src/test/2024-01/Freedom_exp.sol)
 
 #### Link reference
 
