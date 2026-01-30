@@ -4,8 +4,8 @@ pragma solidity ^0.8.10;
 import "forge-std/Test.sol";
 import "./../interface.sol";
 
-// TX : https://phalcon.blocksec.com/explorer/tx/bsc/0xb33057f57ce451aa8cbb65508d298fe3c627509cc64a394736dace2671b6dcfa
-// GUY : https://twitter.com/0xNickLFranklin/status/1768171595561046489
+// TX : https://app.blocksec.com/explorer/tx/bsc/0xb33057f57ce451aa8cbb65508d298fe3c627509cc64a394736dace2671b6dcfa
+ 
 // Profit : ~13K USD
 // REASON : Business Logic Flaw
 // Transfer from pool,will lead to mint to pool.Seems easy,but a bit hard to make this poc.

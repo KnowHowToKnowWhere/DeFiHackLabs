@@ -8,7 +8,7 @@ import "./../interface.sol";
 // Attacker : https://snowtrace.io/address/0xc64afc460290ed3df848f378621b96cb7179521a
 // Attack Contract : https://snowtrace.io/address/0x16a3c9e492dee1503f46dea84c52c6a0608f1ed8
 // Vulnerable Contract : https://polygonscan.com/address/0x9c80a455ecaca7025a45f5fa3b85fd6a462a447b
-// Attack Tx : https://snowtrace.io/tx/0x4b544e5ffb0420977dacb589a6fb83e25347e0685275a3327ee202449b3bfac6 mutiple txs
+// Attack Tx : https://snowtrace.io/tx/0x4b544e5ffb0420977dacb589a6fb83e25347e0685275a3327ee202449b3bfac6 multiple txs
 
 // @Info
 // Vulnerable Contract Code : https://snowtrace.io/address/0x7e1333a39abed9a5664661957b80ba01d2702b1e#code
@@ -50,7 +50,7 @@ contract ContractTest is Test {
     IAaveFlashloan aaveV3 = IAaveFlashloan(0x794a61358D6845594F94dc1DB02A252b5b4814aD);
 
     function setUp() public {
-        vm.createSelectFork("Avalanche", 32_470_736);
+        vm.createSelectFork("avalanche", 32_470_736);
         vm.label(address(USDTe), "USDTe");
         vm.label(address(USDC), "USDC");
         vm.label(address(LP_USDC), "LP_USDC");

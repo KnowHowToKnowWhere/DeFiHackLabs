@@ -36,6 +36,8 @@
 
 [20210804 WaultFinance](#20210804-waultfinace---flashloan-price-manipulation)
 
+[20210804 Popsicle](#20210804-popsicle---repeated-reward-claim---logic-flaw)
+
 [20210728 Levyathan Finance](#20210728-levyathan-finance---i-lost-keys-and-minting-ii-vulnerable-emergencywithdraw)
 
 [20210710 Chainswap](#20210710-chainswap---bridge-logic-flaw)
@@ -257,7 +259,7 @@ https://blocksecteam.medium.com/the-analysis-of-indexed-finance-security-inciden
 
 ---
 
-### 20210916 SushiSwap Miso
+### 20210916 SushiSwap Miso - Insufficient validation
 
 #### Lost: All funds returned
 
@@ -279,7 +281,7 @@ https://etherscan.io/tx/0x78d6355703507f88f2090eb780d245b0ab26bf470eabdb004761ce
 
 ---
 
-### 20210915 Nimbus Platform
+### 20210915 Nimbus Platform - Incorrect calculation
 
 #### Lost: 1.45 ETH
 
@@ -299,7 +301,7 @@ https://twitter.com/BlockSecTeam/status/1438100688215560192
 
 ---
 
-### 20210915 NowSwap Platform
+### 20210915 NowSwap Platform - Incorrect calculation
 
 #### Lost: 158.28 WETH and 535,706 USDT
 
@@ -458,6 +460,26 @@ forge test --contracts ./src/test/2021-08/WaultFinance_exp.sol -vvv
 https://medium.com/@Knownsec_Blockchain_Lab/wault-finance-flash-loan-security-incident-analysis-368a2e1ebb5b
 
 https://inspexco.medium.com/wault-finance-incident-analysis-wex-price-manipulation-using-wusdmaster-contract-c344be3ed376
+
+---
+
+### 20210804 Popsicle - Repeated Reward Claim - Logic Flaw
+
+#### Lost: 20M USD
+
+Testing
+
+```sh
+forge test --contracts ./src/test/2021-08/Popsicle_exp.sol -vvv
+```
+
+#### Contract
+
+[Popsicle_exp.sol](../../src/test/2021-08/Popsicle_exp.sol)
+
+#### Link reference
+
+https://blocksecteam.medium.com/the-analysis-of-the-popsicle-finance-security-incident-9d9d5a3045c1
 
 ---
 
@@ -901,7 +923,7 @@ https://cmichel.io/replaying-ethereum-hacks-sushiswap-badger-dao-digg/
 
 ---
 
-### 20201229 Cover Protocol
+### 20201229 Cover Protocol - Incorrect calculation via cached data
 
 Testing
 
@@ -921,7 +943,7 @@ https://slowmist.medium.com/a-brief-analysis-of-the-cover-protocol-hacked-event-
 
 ---
 
-### 20201121 Pickle Finance
+### 20201121 Pickle Finance - Insufficient validation
 
 #### Lost: $20 million
 

@@ -248,15 +248,15 @@
 
 [20230630 Biswap](#20230630-biswap---v3migrator-exploit)
 
-[20230630 MyAi](#20230630-MyAi---business-loigc)
+[20230630 MyAi](#20230630-MyAi---business-logic)
 
 [20230628 Themis](#20230628-themis---manipulation-of-prices-using-flashloan)
 
-[20230627 UnverifiedContr_9ad32](#20230627-unverifiedcontr_9ad32---business-loigc-flaw)
+[20230627 UnverifiedContr_9ad32](#20230627-unverifiedcontr_9ad32---business-logic-flaw)
 
-[20230627 STRAC](#20230627-STRAC---business-loigc)
+[20230627 STRAC](#20230627-STRAC---business-logic-flaw)
 
-[20230623 SHIDO](#20230623-shido---business-loigc)
+[20230623 SHIDO](#20230623-shido---business-logic)
 
 [20230621 BabyDogeCoin02](#20230621-babydogecoin02---lack-slippage-protection)
 
@@ -264,7 +264,7 @@
 
 [20230620 MIM](#20230620-mimspell---arbitrary-external-call-vulnerability)
 
-[20230619 Contract_0x7657](#20230620-Contract_0x7657---business-loigc)
+[20230619 Contract_0x7657](#20230620-Contract_0x7657---business-logic)
 
 [20230618 ARA](#20230618-ara---incorrect-handling-of-permissions)
 
@@ -920,7 +920,7 @@ https://x.com/MetaSec_xyz/status/1730044259087315046
 
 ---
 
-### 20231129  AIS- Access Control
+### 20231129  AIS - Insufficient validation
 
 ### Lost: ~$61k
 
@@ -1026,7 +1026,7 @@ forge test --contracts ./src/test/2023-11/KyberSwap_exp.eth.1.sol -vvv
 
 [In depth analysis](https://blocksec.com/blog/yet-another-tragedy-of-precision-loss-an-in-depth-analysis-of-the-kyber-swap-incident-1).
 
-[List of transactions](https://phalcon.blocksec.com/explorer/security-incidents?page=1).
+[List of transactions](https://app.blocksec.com/explorer/security-incidents?page=1).
 
 ---
 
@@ -2908,7 +2908,7 @@ https://twitter.com/MetaTrustAlert/status/1674814217122349056?s=20
 
 ---
 
-### 20230630 MyAi - Business Loigc
+### 20230630 MyAi - Business Logic
 
 ### Lost: ~2 $BNB
 
@@ -2950,7 +2950,7 @@ https://twitter.com/BlockSecTeam/status/1673897088617426946
 
 ---
 
-### 20230627 UnverifiedContr_9ad32 - Business Loigc Flaw
+### 20230627 UnverifiedContr_9ad32 - Business Logic Flaw
 
 ### Lost: ~5955 USD
 
@@ -2970,7 +2970,7 @@ https://x.com/DecurityHQ/status/1673708133926031360
 
 ---
 
-### 20230627 STRAC - Business Loigc Flaw
+### 20230627 STRAC - Business Logic Flaw
 
 ### Lost: ~12 $ETH
 
@@ -2990,7 +2990,7 @@ https://x.com/DecurityHQ/status/1673769624611987487
 
 ---
 
-### 20230623 SHIDO - Business Loigc
+### 20230623 SHIDO - Business Logic
 
 ### Lost: ~997 WBNB
 
@@ -3072,7 +3072,7 @@ https://twitter.com/hexagate_/status/1671188024607100928?cxt=HHwWgMC--e2poLEuAAA
 
 ---
 
-### 20230619 Contract_0x7657 - Business Loigc
+### 20230619 Contract_0x7657 - Business Logic
 
 ### Lost: ~$20k $USDT
 
@@ -3723,6 +3723,8 @@ forge test --contracts ./src/test/2023-05/HODLCapital_exp.sol -vvv
 
 https://explorer.phalcon.xyz/tx/eth/0xedc214a62ff6fd764200ddaa8ceae54f842279eadab80900be5f29d0b75212df
 
+https://x.com/numencyber/status/1655825767392247808
+
 ---
 
 ### 20230506 Melo - Access Control
@@ -4077,7 +4079,7 @@ https://twitter.com/BeosinAlert/status/1642372700726505473
 
 ---
 
-### 20230328 SafeMoon Hack
+### 20230328 SafeMoon Hack - Access Control
 
 ### Lost: $8.9M
 
@@ -4117,7 +4119,7 @@ https://twitter.com/LTV888/status/1640563457094451214?t=OBHfonYm9yYKvMros6Uw_g&s
 
 ---
 
-### 20230325 - DBW- Business Logic Flaw
+### 20230325 - DBW - Business Logic Flaw
 
 ### Lost: $24k
 
@@ -4661,7 +4663,7 @@ https://github.com/Autosaida/DeFiHackAnalysis/blob/master/analysis/230119_SHOCO.
 
 ---
 
-### 20230119 - ThoreumFinance-business logic flaw
+### 20230119 - ThoreumFinance - business logic flaw
 
 ### Lost: ~2000 BNB
 

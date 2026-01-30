@@ -9,10 +9,10 @@ import "./../interface.sol";
 // Attack Contract 1: https://arbiscan.io/address/0x3e52c217a902002ca296fe6769c22fedaee9fda1
 // Attack Contract 2: https://arbiscan.io/address/0x42fae47296b26385c4a5b62c46e4305a27c88988
 // Vulnerable Contract : https://arbiscan.io/address/0x7746872c6892bcfb4254390283719f2bd2d4da76#code
-// Attack Tx : https://phalcon.blocksec.com/explorer/tx/arbitrum/0xcb1a2f5eeb1a767ea5ccbc3665351fadc1af135d12a38c504f8f6eb997e9e603
+// Attack Tx : https://app.blocksec.com/explorer/tx/arbitrum/0xcb1a2f5eeb1a767ea5ccbc3665351fadc1af135d12a38c504f8f6eb997e9e603
 
 // @Analysis
-// https://twitter.com/0xNickLFranklin/status/1774727539975672136
+ 
 // https://twitter.com/Phalcon_xyz/status/1773546399713345965
 // @Post Mortem
 // https://hackmd.io/@LavaSecurity/03282024

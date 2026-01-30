@@ -98,7 +98,7 @@
 
 [20221014 EFLeverVault](#20221014-eflevervault---verify-flashloan-callback)
 
-[20221014 MEVBOT a47b](#20221014-mevbota47b---mevbot-a47b)
+[20221014 MEVBOT a47b](#20221014-mevbota47b---price-oracle-manipulation)
 
 [20221012 ATK](#20221012-atk---flashloan-manipulate-price)
 
@@ -122,7 +122,7 @@
 
 [20220929 BXH](#20220928-bxh---flashloan--price-oracle-manipulation)
 
-[20220928 MEVBOT Badc0de](#20220928-MEVBOT---Badc0de)
+[20220928 MEVBOT Badc0de](#20220928-MEVBOT---arbitrary-call)
 
 [20220923 RADT-DAO](#20220923-RADT-DAO---pair-manipulate)
 
@@ -776,6 +776,8 @@ forge test --contracts ./src/test/2022-11/Polynomial_exp.sol -vvv
 
 https://x.com/peckshield/status/1602216000187174912
 
+https://x.com/0xPoor4ever/status/1602156729105788929
+
 ---
 
 ### 20221117 - UEarnPool - FlashLoan Attack
@@ -1248,7 +1250,7 @@ https://twitter.com/danielvf/status/1580936010556661761
 
 ---
 
-### 20221014 MEVBOTa47b - MEVBOT a47b
+### 20221014 MEVBOTa47b - Price Oracle Manipulation
 
 ### Lost: ~187.75 WETH
 
@@ -1505,7 +1507,7 @@ https://bscscan.com/tx/0xa13c8c7a0c97093dba3096c88044273c29cebeee109e23622cd412d
 
 ---
 
-### 20220928 MEVBOT - Badc0de
+### 20220928 MEVBOT - Arbitrary Call
 
 ### Lost: $1,469,700
 
@@ -1551,7 +1553,7 @@ https://bscscan.com/tx/0xd692f71de2768017390395db815d34033013136c378177c05d0d46e
 
 ---
 
-### 20220913 MevBot private tx
+### 20220913 MevBot private tx - Incorrect access control
 
 ### Lost: $140 K
 
@@ -1759,7 +1761,7 @@ https://etherscan.io/tx/0x27e64a8215ae1528245c912bcca09883fdd7cce69249bd5d5d1c0e
 
 ---
 
-### 20220828 DDC
+### 20220828 DDC - Unchecked External Calls
 
 Testing
 
@@ -1774,6 +1776,8 @@ forge test --contracts ./src/test/2022-08/DDC_exp.sol -vvv
 #### Link reference
 
 https://x.com/BeosinAlert/status/1564240190851383302
+
+https://immunebytes.com/blog/ddc-token-hack-aug-28-2022-detailed-analysis/
 
 ### 20220824 LuckyTiger NFT - Predicting Random Numbers
 
@@ -2496,7 +2500,7 @@ https://etherscan.io/address/0xf42c318dbfbaab0eee040279c6a2588fa01a961d#code
 
 ---
 
-### 20220421 Zeed Finance
+### 20220421 Zeed Finance - Incorrect calculation
 
 #### Lost: $1 million
 
@@ -2600,7 +2604,7 @@ https://bscscan.com/tx/0xec317deb2f3efdc1dbf7ed5d3902cdf2c33ae512151646383a8cf8c
 
 ---
 
-### 20220411 Creat Future
+### 20220411 Creat Future - Overflow
 
 #### Lost: $1.9 million
 
@@ -2710,7 +2714,7 @@ https://etherscan.io/tx/0xe0b0c2672b760bef4e2851e91c69c8c0ad135c6987bbf1f43f5846
 
 ---
 
-### 20220326 Auctus
+### 20220326 Auctus - Arbitrary Call
 
 #### Lost: $726 k
 
@@ -2732,7 +2736,7 @@ https://etherscan.io/tx/0x2e7d7e7a6eb157b98974c8687fbd848d0158d37edc1302ea08ee5d
 
 ---
 
-### 20220322 CompoundTUSDSweepTokenBypass
+### 20220322 CompoundTUSDSweepTokenBypass - Insufficient validation
 
 Testing
 
@@ -3013,12 +3017,12 @@ Testing
 
 ```sh
 Solana TBD
-forge test --contracts ./src/test/2022-02/meter_exp.sol -vv
+forge test --contracts ./src/test/2022-02/Meter_exp.sol -vv
 ```
 
 #### Contract
 
-[meter_exp.sol](../../src/test/2022-02/meter_exp.sol)
+[Meter_exp.sol](../../src/test/2022-02/Meter_exp.sol)
 
 #### Link reference
 
@@ -3049,7 +3053,7 @@ forge test --contracts ./src/test/2022-02/TecraSpace_exp.sol -vv
 
 https://etherscan.io/address/0x6653d9bcbc28fc5a2f5fb5650af8f2b2e1695a15
 
-https://phalcon.blocksec.com/explorer/tx/eth/0x81e9918e248d14d78ff7b697355fd9f456c6d7881486ed14fdfb69db16631154
+https://app.blocksec.com/explorer/tx/eth/0x81e9918e248d14d78ff7b697355fd9f456c6d7881486ed14fdfb69db16631154
 
 ---
 
