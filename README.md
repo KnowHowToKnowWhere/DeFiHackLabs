@@ -2,7 +2,7 @@
 
 **Reproduce DeFi hack incidents using Foundry.**
 
-681 incidents included.
+688 incidents included.
 
 Let's make Web3 secure! Join [Discord](https://discord.gg/Fjyngakf3h)
 
@@ -53,6 +53,15 @@ If you appreciate our work, please consider donating. Even a small amount helps 
 - [Giveth](https://giveth.io/donate/defihacklabs)
 
 ## List of Past DeFi Incidents
+[20260310 AlkemiEarn](#20260310-alkemiearn---business-logic)
+
+[20260315 Venus THE](#20260315-venus-the---borrowbehalf--donation-attack)
+
+[20260302 Curve LlamaLend](#20260302-curve-llamalend---share-price-manipulation)
+
+[20260222 LAXO Token](#20260222-laxo-token---incorrect-burn-logic)
+
+[20260215 Moonwell](#20260215-moonwell---faulty-oracle)
 
 [20260120 Makina](#20260120-makina---price-oracle-manipulation)
 
@@ -209,6 +218,8 @@ If you appreciate our work, please consider donating. Even a small amount helps 
 [20250305 1inch Fusion V1 Settlement](past/2025/README.md#20250305-1inch-fusionv1-settlement---arbitrary-yul-calldata)
 
 [20250304 Pump](past/2025/README.md#20250304-pump---not-slippage-protection)
+
+[20250227 Venus_ZKSync](past/2025/README.md#20250227-venus_zksync---donation-attack)
 
 [20250223 HegicOptions](past/2025/README.md#20250223-hegicoptions---business-logic-flaw)
 
@@ -1438,6 +1449,8 @@ If you appreciate our work, please consider donating. Even a small amount helps 
 
 [20171106 Parity - 'Accidentally Killed It'](past/2021/README.md##20171106-parity---accidentally-killed-it)
 
+[20170719 Parity Multisig](past/2021/README.md#20170719-parity-multisig---delegatecall-to-unprotected-initwallet)
+
 </details>
 
 ---
@@ -1461,6 +1474,90 @@ If you appreciate our work, please consider donating. Even a small amount helps 
 ---
 
 ### List of DeFi Hacks & POCs
+
+### 20260315 Venus THE - BorrowBehalf + Donation Attack
+
+### Lost: 913,858.263360521396654198 CAKE + 1,972.530910582753621682 WBNB
+
+```sh
+forge test --contracts src/test/2026-03/Venus_THE_exp.sol --match-test testTraceDrivenPoC -vvv
+```
+#### Contract
+[Venus_THE_exp.sol](src/test/2026-03/Venus_THE_exp.sol)
+
+### Link reference
+https://bscscan.com/tx/0x4f477e941c12bbf32a58dc12db7bb0cb4d31d41ff25b2457e6af3c15d7f5663f
+
+---
+
+### 20260310 AlkemiEarn - Business Logic
+
+### Lost: 43.45 ETH
+
+
+```sh
+forge test --contracts ./src/test/2026-03/AlkemiEarn_exp.sol -vvv
+```
+#### Contract
+[AlkemiEarn_exp.sol](src/test/2026-03/AlkemiEarn_exp.sol)
+### Link reference
+
+https://x.com/blockaid_/status/2031351881029546194
+
+---
+
+### 20260302 Curve LlamaLend - Share price manipulation
+
+### Lost: ~240,000 US$
+
+```sh
+forge test -vvv --contracts ./src/test/2026-03/Curve_LlamaLend_exp.sol
+```
+#### Contract
+[Curve_LlamaLend_exp.sol](src/test/2026-03/Curve_LlamaLend_exp.sol)
+
+### Link reference
+https://x.com/yieldsandmore/status/2028368378457362629
+
+---
+
+### 20260222 LAXO Token - Incorrect Burn Logic
+
+### Lost: ~137,000 US$
+
+```sh
+forge test src/test/2026-02/LAXO_Token_exp.sol -vvv
+```
+
+#### Contract
+[LAXO_Token_exp.sol](src/test/2026-02/LAXO_Token_exp.sol)
+
+### Link reference
+https://x.com/CertiKAlert/status/2027317095420072317
+
+---
+
+### 20260215 Moonwell - Faulty Oracle
+
+### Lost: 1.78M USD
+
+```sh
+forge test --contracts ./src/test/2026-02/Moonwell_exp.sol -vvv
+```
+
+#### Contract
+[Moonwell_exp.sol](src/test/2026-02/Moonwell_exp.sol)
+
+### Link reference
+https://forum.moonwell.fi/t/mip-x43-cbeth-oracle-incident-summary/2068
+
+https://forum.moonwell.fi/t/recovery-plan-cbeth-incident-and-moonwell-apollo-onboarding/2084
+
+https://x.com/pashov/status/2023872510077616223
+
+https://x.com/moo9000/status/2024040101982990534
+
+---
 
 ### 20260120 SynapLogic - Business Logic Flaw
 
